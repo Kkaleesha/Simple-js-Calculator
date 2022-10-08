@@ -1,0 +1,43 @@
+body{
+    background-color:#282A35;
+}
+h1{
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+tr{
+    background-color: skyblue;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+input{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+table{
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+div{
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid black;
+}
+button:hover{
+    background-color:aqua;
+    transform: scale(1.2);
+}
+
