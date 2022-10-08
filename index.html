@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <table width="5px" height="200px" border="1px" style="margin-left:auto;margin-right:auto;">
+        <caption><h1>Calculator</h1></caption>
+        <tr class="tr">
+            <th colspan="2"><div id="div1">Output</div></th>
+        </tr>
+        <tr>
+            <th class="th1"><input type="number" placeholder="First Number" id="f1"></th>
+            <th><input type="number" placeholder="Scond Number" id="f2"></th>
+        </tr>
+    <tr>
+    <th><button id="add" class="btn1" onclick="add()"><b>+</b></button></th>
+    <th><button id="sub" onclick="sub()" class="btn2"><b>-</b></button></th>
+    </tr>
+    <tr>
+    <th><button id="mul" onclick="mul()"><b>*</b></button></th>
+    <th><button id="div" onclick="div()"><b>/</b></button></th>
+    </tr>
+    <tr>
+    <th><button id="power" onclick="power()"><b>^</b></button><br><br></th>
+    <th><button id="mod" onclick="mod()">MOD</button></th>
+    </tr>
+    <tr>
+        <th><button onclick="abc()">Reset</button></th>
+        <th><button onclick="openurl()">My Github</button></th>
+    </tr>
+</table>
+    <script src="script.js"></script>
+</body>
+</html>
